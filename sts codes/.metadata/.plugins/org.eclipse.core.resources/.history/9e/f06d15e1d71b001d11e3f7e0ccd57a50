@@ -1,0 +1,19 @@
+package app_junit_examples;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+
+import junit.framework.Assert;
+
+public class Testing {
+	@Test
+	public void checking()
+	{
+		Add f =new Add();
+		int actualVlue=f.addNumber(20,40);
+	  int expectedValue=60;
+	  Assert.assertEquals("expectedValue,actualVlue", expectedValue);
+	}
+
+}

@@ -1,0 +1,14 @@
+package app_junit_examples;
+
+import org.junit.Test;
+
+public class Testing {
+	@Test
+	public void checking()
+	{
+		Add f =new Add();
+		f.addNumber(20,40);
+		System.out.println("f.addNumber()");
+	}
+
+}

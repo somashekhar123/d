@@ -1,0 +1,17 @@
+package app_junit_examples;
+
+import org.junit.Test;
+
+public class A {
+	@Test
+	public void test1()
+	{
+
+		System.out.println("FROM TEST1");
+	}
+	@Test
+public void test2(){
+		int s=12/0;
+	System.out.println("from test2");
+}
+}

@@ -1,0 +1,10 @@
+package app_junit_examples;
+
+public class Testing {
+	public void checking()
+	{
+		Add f =new Add();
+		f.addNumber(20,40);
+	}
+
+}
